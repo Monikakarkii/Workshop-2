@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I am Monika">
+    <meta name="robots" content="Noindex, Nofollow">
+    <meta property="og:url" content="https://www.facebook.com/monika.karki.528/">
+    <meta property="og:type" content="Facebook profile">
+    <meta property="og:title" content="Monika's Facebook">
+    <meta property="description" content="This website is about monika's facebook account">
+    <meta property="og:image" content="https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/310493261_1142459320033690_1938951844755686944_n.jpg?stp=dst-jpg_p843x403&_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=udpGERGf8egAX-VUuO7&_nc_ht=scontent.fktm7-1.fna&oh=00_AfDVxS3i5iPtpYdIMuBiJhyqSbsRaf9lEtzkhuhHlL4QxQ&oe=6390C781">
+    <title> Monika</title>
+    </head>
+<style>
+    body{
+        background-color: rgba(128, 128, 128, 0.306);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 255, 255, 0.276);
+    }
+    nav li{
+        margin: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    footer{
+         background-color: blanchedalmond;
+         }
+    img{
+        height: 300px;
+        width: 250px;
+    }
+</style><link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"></head>
+
+<body>
+    <nav>
+        <li>Home</li>
+        <li>About me</li>
+        <li>Gallery</li>
+    </nav>
+    <h1>My Portfolio</h1>
+    <img src="./My Portfolio_files/IMG-3023.jpg" alt=" Image">
+    <p>My name is Monika Karki.I was born in 26th June 2002.I am studying BIT in Herald College of Kathmandu.</p>
+    <table>
+        <tbody><tr>
+          <th>Year</th>
+          <th>Education</th>
+          <th>Institution</th>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td> SEE</td>
+          <td>GEMS School</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>+2</td>
+          <td>GIHE</td>
+        </tr>
+      </tbody></table>
+      <h2>Interests:</h2>
+      <li>Coding</li>
+      <li>Politics</li>
+      <h2>Hobbies</h2>
+      <p>Cooking</p>
+      <li><a href="http://127.0.0.1:5500/Thomas/index.html">Internal Link</a></li>
+      <li><a href="https://www.w3schools.com/">External Link</a></li>
+      <footer>
+        <h2>Contact form</h2>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+        <input type="submit" value="Submit">
+      </form>
+      <h2>Contact me</h2>
+      <p>9860238079</p>
+    </footer>
+
+      
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
